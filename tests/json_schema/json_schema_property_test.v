@@ -7,7 +7,7 @@ import src.json_schema {
 	load_from_string
 }
 
-fn test_load_from_string() {
+fn test_json_schema_load_from_string() {
 	json_str := '{
     "\$schema": "https://raw.githubusercontent.com/lenra-io/ex_component_schema/beta/priv/static/draft-lenra.json",
     "\$id": "components/view.schema.json",
